@@ -1,0 +1,388 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin: 0;
+
+}
+
+.hr{
+    border:1px;
+    margin-bottom:40px;
+    margin-top: 20px;
+    width:100%;
+    height:2px;
+    background-color: #F2F2F2;
+}
+
+.container a{
+    font-weight:bold;
+    font-size: 17px;
+    line-height: 22px;
+}
+.content1{
+    margin-top: 30px;
+}
+header a{
+
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    padding: 0 15px 50px 15px;
+    margin-bottom: 30px;
+    font-family: 'Cardo', serif;
+
+}
+header img{
+    padding: 17px 0 0 300px;
+}
+.content1{
+    width: 100%;
+    background: url(images/IMAGE.png);
+    /*background-size: 100%;*/
+
+
+}
+.content1 h2{
+    text-align: center;
+    font-size: 27px;
+    padding-top: 270px;
+
+    color: white;
+}
+.content1 button{
+    font-size: 20px;
+    font-family: 'Cardo', serif;
+    margin-left: 580px;
+    width: 203px;
+    height: 36px;
+
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 1px 38px 7px 41px;
+
+}
+.content1 p{
+    width: 263px;
+    height: 20px;
+    font-family: 'Cardo', serif;
+    margin-top: 285px;
+    font-size: 15px;
+    background: black;
+    padding: 16px 30px 14px 31px;
+    margin-left: 20px;
+    color: white;
+}
+.mini-block{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.mini-block div{
+    display: flex;
+    align-items: center;
+}
+
+.shopping{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 155px;
+}
+.mini-block p{
+    margin-left: 22px;
+    font-size: 13px;
+}
+.mini-block span{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.mini-content{
+    display: flex;
+    width: 333px;
+    height: 299.7px;
+    margin-bottom: 100px;
+}
+.content3{
+    display: flex;
+    margin-bottom: 50px;
+}
+.content3_right img{
+    width: 880px;
+    height: 440px;
+}
+.content3_left{
+    text-align: right;
+    margin-right: 30px;
+}
+h4,h5,p{
+    font-family: 'Cardo', serif;
+    font-weight: lighter;
+
+}
+p{
+    color: #525252;
+    font-size: 18px;
+}
+h4{
+    font-style: italic;
+}
+.content3_left a{
+    color: black;
+    position: relative;
+    top: 100px;
+}
+
+.content4_left img{
+    width: 880px;
+    height: 440px;
+}
+.content4{
+    display: flex;
+    margin-bottom: 50px;
+}
+.content4_right{
+    text-align: left;
+    margin-left: 30px;
+}
+.content4_right a{
+    color: black;
+    position: relative;
+    top: 100px;
+}
+
+.content5_right img{
+    width: 880px;
+    height: 440px;
+}
+.content5{
+    display: flex;
+    margin-bottom: 50px;
+}
+.content5_left a{
+    color: black;
+    position: relative;
+    top: 100px;
+}
+h6{
+    color: red;
+    font-style: italic;
+    font-family: 'Cardo', serif;
+}
+.content5_left{
+    text-align: right;
+    margin-right: 30px;
+}
+.content6_left img{
+    width: 880px;
+    height: 440px;
+}
+.content6{
+    display: flex;
+    margin-bottom: 50px;
+}
+.content6_right{
+    text-align: left;
+    margin-left: 30px;
+}
+.content6_right a{
+    color: black;
+    position: relative;
+    top: 35px;
+
+}
+h5{
+    font-size: 15px;
+}
+.content6_right img{
+    margin-top: 80px;
+}
+.content7{
+    display: flex;
+    margin-bottom: 50px;
+}
+.content7_right img{
+    width: 880px;
+    height: 440px;
+
+}
+.content7_left{
+    text-align: right;
+    margin-right: 30px;
+}
+.content7_left a{
+    color: black;
+    position: relative;
+    top: 100px;
+
+}
+.content8{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.content8 h3{
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    color: #3A3A3A;
+}
+.content8 h4{
+    font-family: 'Cardo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+}
+.block{
+
+    width: 9px;
+    height: 9px;
+    background-color: black;
+    margin: 5px;
+}
+.blocks{
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+}
+.content8 p{
+    padding: 100px 100px 30px 100px;
+    font-style: italic;
+    color: #020202;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.blocks2{
+    display: flex;
+    justify-content: center;
+
+
+}
+.block2{
+    width: 9px;
+    height: 9px;
+    background-color: black;
+    margin: 50px 5px 5px 5px;
+}
+.block3{
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    margin: 50px 5px 5px 5px;
+
+}
+.block4{
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    margin: 50px 5px 5px 5px;
+}
+.content9{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: space-between;
+
+}
+.content9 h3{
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Cardo', serif;
+
+
+
+}
+.content9 p{
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27.86px;
+    margin-bottom: 25px;
+}
+.white,.grey{
+    width: 370px;
+    height: 360px;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.grey{
+    background-color: #F8F8F8;
+}
+.content9 a{
+    font-size: 15px;
+    color: black;
+
+
+}
+.content10{
+    margin-top: 133px;
+    margin-bottom: 83px;
+    text-align: center;
+}
+.content10 img{
+    width: 100%;
+    margin-top: 41px;
+}
+footer{
+    background-color: #E9E9E9;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Cardo', serif;
+    padding-top: 14px;
+
+
+}
+.panel1,.panel2,.panel3,.panel4{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer h2{
+    font-weight: lighter;
+    font-family: 'Cardo', serif;
+    font-size: 24px;
+}
+.footer p{
+    color: black;
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+
+}
+.footer input{
+
+    text-align: center;
+}
+.panel4 p,input,img{
+    margin-bottom: 21px;
+}
+.end{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+}
+.end p{
+    color: black;
+    font-size: 13px;
+
+}
